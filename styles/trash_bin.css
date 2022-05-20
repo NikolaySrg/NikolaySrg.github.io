@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(49, 111, 206, 0.39);
+    padding: 2%;
+}
+.foot img {
+    width: 10vh;
+}
+main {
+    width: 100%;
+    height: 90vh;
+    background-color: darkgray;
+    border: 5px solid darkgray;
+    border-radius: 15px;
+    position: relative;
+    padding: 2%;
+}
+main form {
+    font-family: "dogica_pixelregular";
+}
+input {
+    max-width: 90%;
+}
+.foot {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 7vh;
+    font-family: "dogica_pixelregular";
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 2%;
+}
+button {
+    background-color: rgb(139, 139, 139);
+    border-radius: 15px;
+}
+.window {
+    display: flex;
+    width: 97%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+    border: 1px solid #000;
+}
+.trash_highlighting {
+    display: block;
+    width: 17vh;
+    height: 22vh;
+    text-align: center;
+    padding: 24px;
+    align-items: center;
+    margin-left: 2vh;
+}
+.trash_highlighting:hover {
+    border: 1px dotted red;
+    background: rgba(192,143,143);
+}
+.trash_highlighting a {
+    text-decoration: none;
+}
+.icons_trash {
+    display: flex;
+}
+.icon-text {
+    font-family: "dogica_pixelregular";
+    font-size: 2vh;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    margin-top: 1vh;
+}

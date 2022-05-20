@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" sizes="180x180">
+    <title>D&D</title>
+    <script>
+
+        // open in iframe
+        function myFunction(name) {
+            document.getElementById("open-w").style.display = "block";
+            document.querySelector(".window_text_header").innerHTML = name;
+        }
+        //open in iframe
+        
+        //close_button 
+        function functionClose() {
+            document.getElementById("open-w").style.display = "none";
+        }
+        //close_button
+    </script>
+</head>
+<body>
+    <main>
+        <div class="window">
+            <div class="left_icons">
+                <div class="desktop">
+                    <a href="bin.html" target="iframe" onclick="myFunction('Trash')">
+                        <div class="icon-image">
+                            <img src="img/trash.svg" alt="trash">
+                        </div>
+                        <div class="icon-text">Trash Bin</div>
+                    </a>
+                </div>
+                <div class="desktop">
+                    <a href="mail.html" target="iframe" onclick="myFunction('Mail')">
+                        <div class="icon-image">
+                            <img src="img/mail.svg" alt="mail">
+                        </div>
+                        <div class="icon-text">Mail</div>
+                    </a>
+                </div>
+                <div class="desktop">
+                    <a href="music.html" target="iframe" onclick="myFunction('Music')">
+                        <div class="icon-image">
+                            <img src="img/music.svg" alt="music">
+                        </div>
+                        <div class="icon-text">Music</div>
+                    </a>
+                </div>
+                <div class="desktop " >
+                    <a href="google.html" target="iframe" onclick="myFunction('Browser')">
+                        <div class="icon-image">
+                            <img src="img/browser.svg" alt="browser">
+                        </div>
+                        <div class="icon-text">Browser</div>
+                    </a>
+                </div>
+            </div>
+            <!-- Window -->
+        <div class="center_window">
+            <div style="display: none;" id="open-w" class="open_window">
+                <div class="window_header">
+                    <p class="window_text_header m-1"></p>
+                </div>
+                <div class="window_header_two">
+                    <button onclick="functionClose()" id="close_button" class="header_button">Close</button>
+                </div>
+                <div class="window_border">
+                    <div class="window">
+                        <!-- Iframe -->
+                        <div class="iframe" style="width:100%; height: 100%;">
+                            <iframe name="iframe" style="width: 100%; height: 100% " title="Iframe for browser"></iframe>
+                        </div>
+                        <!-- Iframe -->
+                    </div>
+                </div>  
+            </div>
+        </div>
+            <!-- Window -->
+            <div class="right_icons">
+                <div class="desktop">
+                    <a href="word.html" target="iframe" onclick="myFunction('Microsoft Word')">
+                        <div class="icon-image">
+                            <img src="img/text_editor.svg" alt="word">
+                        </div>
+                        <div class="icon-text">Text Editor</div>
+                    </a>
+                </div>
+                <div class="desktop ">
+                    <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41934.180997813804!2d53.74096548003092!3d56.469588781998446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43e0ce2d23847373%3A0x2b4382efc1a24fca!2z0KHQsNGA0LDQv9GD0LssINGA0LXRgdC_0YPQsdC70LjQutCwINCj0LTQvNGD0YDRgtC40Y8!5e0!3m2!1sru!2sru!4v1652882570474!5m2!1sru!2sru" target="iframe"  onclick="myFunction('Maps')">
+                        <div class="icon-image">
+                            <img src="img/maps.svg" alt="map">
+                        </div>
+                        <div class="icon-text">Maps</div>
+                    </a>
+                </div>
+                <div class="desktop">
+                    <a href="https://rp5.ru/Погода_в_Сарапуле" target="iframe"  onclick="myFunction('Weather')">
+                        <div class="icon-image">
+                            <img src="img/weather_three.svg" alt="weather">
+                        </div>
+                        <div class="icon-text">Weather</div>
+                    </a>
+                </div>
+                <div class="desktop">
+                    <a href="https://media.5ka.ru/" target="iframe" onclick="myFunction('Store')">
+                        <div class="icon-image">
+                            <img src="img/store.svg" alt="store">
+                        </div>
+                        <div class="icon-text">Store</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer_icons">
+            <a href="shutdown.html"><img src="img/power.svg" alt="power"></a>
+            <a target="_blank" href="https://www.instagram.com/?hl=en"><img src="img/instagram.svg" alt="instagram"></a>
+            <a target="_blank" href="https://www.facebook.com/"><img src="img/facebook.svg" alt="facebook"></a>
+            <a target="_blank" href="https://www.youtube.com/"><img src="img/youtube2.svg" alt="youtube"></a>
+            <a target="_blank" href="https://vk.com/"><img src="img/vk.svg" alt="VK"></a>
+            <a target="_blank" href="https://twitter.com/?lang=en"><img src="img/twitter.svg" alt="twitter"></a>
+            <a target="_blank" href="https://www.findernet.com/ru/russia/"><img src="img/finder.svg" alt="finder"></a>
+            <a target="_blank" href=""><img src="img/finder2.svg" alt="finder2"></a>
+            <a target="_blank" href="https://web.telegram.org/"><img src="img/telegram.svg" alt="telegram"></a>
+            <a target="_blank" href="https://web.whatsapp.com/"><img src="img/whatsapp.svg" alt="whatsapp"></a>
+        </div>
+    </footer>
+<!--Custom right click menu-->
+
+    <!--links fir click menu-->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--links fir click menu-->
+
+    <!--html for click menu-->
+    <div id="contextMenu" class="context-menu" style="display: none"> 
+        <ul class="menu"> 
+            <li class="share"><a href="#"><i class="fa fa-share"></i> Share</a></li> 
+            <li class="rename"><a href="#"><i class="fa fa-pencil"></i> Rename</a></li> 
+            <li class="link"><a href="#"><i class="fa fa-link"></i> Copy Link Address</a></li> 
+            <li class="copy"><a href="#"><i class="fa fa-copy"></i> Copy to</a></li> 
+            <li class="paste"><a href="#"><i class="fa fa-paste"></i> Move to</a></li> 
+            <li class="download"><a href="#"><i class="fa fa-download"></i> Download</a></li> 
+            <li class="trash"><a href="#"><i class="fa fa-trash"></i> Delete</a></li> 
+        </ul> 
+    </div>
+    <!--html for click menu-->
+
+    <!--style for click menu-->
+    <style>
+
+        ul {
+            list-style: none;
+        }
+        .context-menu { 
+            position: absolute; 
+        } 
+        .menu {
+            display: flex;
+            flex-direction: column;
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 10px 0;
+        }
+        .menu > li > a {
+            padding: 10px 30px 10px 15px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            position: relative;
+            text-decoration: none;
+            color: rgb(57, 57, 57);
+            transition: 0.5s linear;
+        }
+        .menu li a:hover {
+            background:#f1f3f7;
+            color: #4b00ff;
+        }
+        .menu li a i {
+            padding-right: 10px;
+        }
+        .menu li.trash a:hover {
+            color: red;
+        }
+    </style>
+    <!--style for click menu-->
+    
+    <!--script for click menu-->
+    <script>
+        document.onclick = hideMenu; 
+        document.oncontextmenu = rightClick; 
+ 
+         function hideMenu() { 
+             document.getElementById("contextMenu") 
+                     .style.display = "none" 
+         } 
+ 
+         function rightClick(e) { 
+             e.preventDefault(); 
+ 
+             if (document.getElementById("contextMenu") .style.display == "block"){ 
+                 hideMenu(); 
+             }
+             else { 
+                 var menu = document.getElementById("contextMenu")      
+                 menu.style.display = 'block'; 
+                 menu.style.left = e.pageX + "px"; 
+                 menu.style.top = e.pageY + "px"; 
+             } 
+         } 
+     </script>
+    <!--script for click menu-->
+
+<!--Custom right click menu-->
+</body>
+</html>

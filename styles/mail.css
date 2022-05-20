@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(49, 111, 206, 0.39);
+    padding: 2%;
+}
+.head img {
+    width: 10vh;
+}
+main {
+    width: 100%;
+    height: 90vh;
+    background-color: darkgray;
+    border: 5px solid darkgray;
+    border-radius: 15px;
+    position: relative;
+    padding: 2%;
+}
+main form {
+    font-family: "dogica_pixelregular";
+}
+input {
+    max-width: 90%;
+}
+.head {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: white;
+    font-size: 10vh;
+    background-color: darkgrey;
+    font-family: "dogica_pixelregular";
+    display: flex;
+    justify-content: center;
+}
+.forms {
+    display: flex;
+}
+.left_form {
+    width: 40%;
+}
+.right_form {
+    width: 60%;
+}
+.button_form {
+    bottom: 1%;
+    position: absolute;
+}
+.button_form button {
+    background-color: rgb(250, 229, 123);
+}
+.message {
+    box-sizing: border-box;
+    width: 100%;
+}
+.textarea {
+    width: 100%;
+}
+.form-control {
+    background-color: rgb(250, 229, 123);
+}
